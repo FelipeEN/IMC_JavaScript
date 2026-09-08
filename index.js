@@ -16,10 +16,11 @@ form.addEventListener("submit", event  => {
 
 
     const peso = Number(pesoInput.value) 
-    const altura = Number(alturaInput.value) / 100
+    const altura = Number(alturaInput.value) 
     
 
     const result = calculateIMC(altura, peso);
+
     let opniao ;
 
     if (result < 18.49){
